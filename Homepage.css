@@ -1,13 +1,24 @@
-﻿div.gallery {
+﻿body {
     margin-left: 500px;
     margin-right: 500px;
+    background-color: lightgrey;
+}
+
+div.gallery {
+    margin-left: 5px;
+    margin-right: 5px;
     width: 300px;
     height: 300px;
+    float: left;
 }
 
 div.gallery img {
     width: 100%;
     height: auto;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
 }
 
 div.desc {
@@ -20,15 +31,10 @@ h1 {
     text-align: center;
     padding-top: 200px;
     padding-bottom: 25px;
-    margin-left: 500px;
-    margin-right: 500px;
-}
-
-body {
-    background-color: lightgrey;
 }
 
 table {
     width: 300px;
     border-collapse: collapse;
 }
+
