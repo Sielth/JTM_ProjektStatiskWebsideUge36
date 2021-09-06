@@ -5,9 +5,13 @@ VisualStudioVersion = 16.0.31624.102
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{681FAC2D-5DBB-4BA2-BBA6-13E28ED9119A}"
 	ProjectSection(SolutionItems) = preProject
+		Aboutpage.css = Aboutpage.css
+		Aboutpage.html = Aboutpage.html
 		CongratulationPage.html = CongratulationPage.html
 		Homepage.css = Homepage.css
 		Homepage.html = Homepage.html
+		Marketpage.css = Marketpage.css
+		Marketpage.html = Marketpage.html
 	EndProjectSection
 EndProject
 Global
