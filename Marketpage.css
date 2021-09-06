@@ -1,20 +1,20 @@
 ﻿body {
-    /*margin-left: 25%;*/
-    /*margin-right: 25%;*/
+    padding-left: 10%;
+    padding-right: 10%;
     background-color: lightgrey;
 }
 
 header {
     /*background-color: white;*/
     font-family: 'Times New Roman', Times, serif;
-    text-align: center;
+    text-align: left;
     padding-top: 2.5%;
     padding-bottom: 50px;
-    padding-right: 5%;
-    padding-left: 2.5%;
-    margin: 20px;
-    width: 90%;
-    vertical-align: baseline;
+    /*padding-right: 5%;*/
+    /*padding-left: 2.5%;*/
+    /*margin: 20px;*/
+    width: 100%;
+    /*vertical-align: baseline;*/
     /*display:flex;*/
     /*position:fixed;*/
 }
@@ -30,7 +30,7 @@ div.intro {
     background-clip: content-box;
     width: 20%;
     height: 8%;
-    padding-left: 10%;
+    /*padding-left: 10%;*/
     /*text-align:left;*/
     font-size: 26px;
     float: left;
@@ -45,7 +45,7 @@ div.navigation {
     background-color: #333;
     float: right;
     padding: 14px 16px;
-    margin-right: 4em;
+    /*margin-right: 4em;*/
     /*background-clip: content-box;*/
     /*min-height:100%;*/
     /*vertical-align:baseline;*/
@@ -63,6 +63,14 @@ div.navigation {
     color: #f2f2f2;
 }
 
-    .navigation a.active {
-        background-color: #555;
-    }
+.navigation a.active {
+    background-color: #555;
+}
+
+table{
+    border-collapse:collapse;
+    margin-left:auto;
+    margin-right:auto;
+    table-layout:fixed;
+    width:100%;
+}

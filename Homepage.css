@@ -1,6 +1,6 @@
 ﻿body {
-    /*margin-left: 25%;*/
-    /*margin-right: 25%;*/
+    padding-right: 10%;
+    padding-left: 10%;
     background-color: lightgrey;
 }
 
@@ -28,14 +28,16 @@ div.desc {
 header {
     /*background-color: white;*/
     font-family: 'Times New Roman', Times, serif;
-    text-align: center;
+    /*text-align: center;*/
     padding-top: 2.5%;
     padding-bottom: 50px;
-    padding-right:5%;
-    padding-left:2.5%;
-    margin:20px;
-    width:90%;
-    vertical-align:baseline;
+    /*padding-right: 10%;*/
+    /*padding-left: 10%;*/
+    /*padding-right:5%;*/
+    /*padding-left:2.5%;*/
+    /*margin: 20px;*/
+    width: 100%;
+    vertical-align: baseline;
     /*display:flex;*/
     /*position:fixed;*/
 }
@@ -51,7 +53,7 @@ div.intro {
     background-clip: content-box;
     width:20%;
     height:8%;
-    padding-left:10%;
+    /*padding-left:10%;*/
     /*text-align:left;*/
     font-size:26px;
     float:left;
@@ -66,7 +68,7 @@ div.navigation{
     background-color:#333;
     float:right;
     padding:14px 16px;
-    margin-right:4em;
+    /*margin-right:4em;*/
     /*background-clip: content-box;*/
     /*min-height:100%;*/
     /*vertical-align:baseline;*/
@@ -93,3 +95,19 @@ table {
     border-collapse: collapse;
 }
 
+.p1{
+    text-align:right;
+}
+
+.main {
+    background-image: url('https://newstatesman.com/sites/default/files/blogs_2019/12/shutterstock_586368239.jpg');
+    background-size:cover;
+    background-repeat:no-repeat;
+    width:auto;
+    height:100%;
+    padding-bottom:300px;
+    color:beige;
+    padding-left:10px;
+    padding-right:10px;
+    /*padding-top:5px;*/
+}
