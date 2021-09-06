@@ -1,3 +1,68 @@
-﻿body
-{
+﻿body {
+    /*margin-left: 25%;*/
+    /*margin-right: 25%;*/
+    background-color: lightgrey;
 }
+
+header {
+    /*background-color: white;*/
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding-top: 2.5%;
+    padding-bottom: 50px;
+    padding-right: 5%;
+    padding-left: 2.5%;
+    margin: 20px;
+    width: 90%;
+    vertical-align: baseline;
+    /*display:flex;*/
+    /*position:fixed;*/
+}
+
+/**
+*
+*  Text inde i headeren, som velkomst (og måske logo)
+*
+**/
+div.intro {
+    /*background-color: red;*/
+    /*font-family: 'Times New Roman', Times, serif;*/
+    background-clip: content-box;
+    width: 20%;
+    height: 8%;
+    padding-left: 10%;
+    /*text-align:left;*/
+    font-size: 26px;
+    float: left;
+    /*display:flex;*/
+    /*padding-bottom:100%;*/
+    /*margin-bottom:-100%;*/
+    /*display:block;*/
+}
+
+div.navigation {
+    /*height:5em;*/
+    background-color: #333;
+    float: right;
+    padding: 14px 16px;
+    margin-right: 4em;
+    /*background-clip: content-box;*/
+    /*min-height:100%;*/
+    /*vertical-align:baseline;*/
+    /*display:flex;*/
+    /*padding:8px 0px 8px 0px;*/
+    /*margin-bottom:-100%;*/
+    /*padding-top:5px;*/
+}
+
+.navigation a {
+    /*padding-left:16px;*/
+    /*padding-right:16px;*/
+    padding: 8px 12px;
+    /*text-align:center;*/
+    color: #f2f2f2;
+}
+
+    .navigation a.active {
+        background-color: #555;
+    }
